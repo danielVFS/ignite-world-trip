@@ -5,7 +5,7 @@ export function Header() {
   return (
     <PageWrapper>
       <Center h="100" w="full">
-        <Image src="/logo.svg" alt="World trip app logo" />
+        <Image src="/Logo.svg" alt="World trip app logo" />
       </Center>
     </PageWrapper>
   );
