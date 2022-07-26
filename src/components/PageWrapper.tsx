@@ -6,7 +6,7 @@ interface PageWrapperProps {
 
 export function PageWrapper({ children }: PageWrapperProps) {
   return (
-    <Flex maxWidth={1440} margin="auto">
+    <Flex maxWidth={1440} w="full" margin="auto">
       {children}
     </Flex>
   );
