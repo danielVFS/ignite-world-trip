@@ -3,6 +3,7 @@ import Head from "next/head";
 import { Header } from "../components/Header";
 import { Banner } from "../components/Home/Banner";
 import { PageDivider } from "../components/Home/PageDivider";
+import { SelectCountryText } from "../components/Home/SelectCountryText";
 import { TravelTypes } from "../components/Home/TravelTypes";
 
 const Home: NextPage = () => {
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <Banner />
       <TravelTypes />
       <PageDivider />
+      <SelectCountryText />
     </>
   );
 };
