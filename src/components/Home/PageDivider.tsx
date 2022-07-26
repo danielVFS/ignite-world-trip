@@ -10,8 +10,8 @@ export function PageDivider() {
         borderRadius="md"
         bg="gray.700"
         mx="auto"
-        mt={12}
-        mb={12}
+        mt={[4, 12]}
+        mb={[4, 12]}
       />
     </PageWrapper>
   );
