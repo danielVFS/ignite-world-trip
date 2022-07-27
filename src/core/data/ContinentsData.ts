@@ -1,6 +1,6 @@
 import { Continent } from "../models/Continent";
 
-export const continents: Continent[] = [
+export const continentsData: Continent[] = [
   {
     name: "Europa",
     description: "O continente mais antigo",

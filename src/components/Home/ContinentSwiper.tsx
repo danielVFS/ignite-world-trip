@@ -1,4 +1,6 @@
-import { Flex, Heading, Text } from "@chakra-ui/react";
+import { Flex, Heading, Link, Text } from "@chakra-ui/react";
+import NextLink from "next/link";
+
 import { Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -33,7 +35,12 @@ export function ContinentSwiper() {
                   bgSize="cover"
                   textAlign="center"
                 >
-                  <Heading color="gray.100">{continent.name}</Heading>
+                  <NextLink href={`/continents/${continent.name}`} passHref>
+                    <Link>
+                      <Heading color="gray.100">{continent.name}</Heading>
+                    </Link>
+                  </NextLink>
+
                   <Text color="gray.300" fontSize="lg">
                     {continent.description}
                   </Text>
