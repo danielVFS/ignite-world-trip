@@ -35,7 +35,7 @@ export function ContinentSwiper() {
                   bgSize="cover"
                   textAlign="center"
                 >
-                  <NextLink href={`/continents/${continent.name}`} passHref>
+                  <NextLink href={`/continents/${continent.slug}`} passHref>
                     <Link>
                       <Heading color="gray.100">{continent.name}</Heading>
                     </Link>
