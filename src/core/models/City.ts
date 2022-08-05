@@ -1,4 +1,4 @@
-export interface Citie {
+export interface City {
   thumbnail: string;
   name: string;
   country: string;

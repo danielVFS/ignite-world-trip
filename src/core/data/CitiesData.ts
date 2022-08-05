@@ -1,6 +1,6 @@
-import { Citie } from "../models/Citie";
+import { City } from "../models/City";
 
-export const citiesData: Citie[] = [
+export const citiesData: City[] = [
   {
     thumbnail: "/City.png",
     name: "Londres",
