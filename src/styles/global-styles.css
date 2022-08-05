@@ -1,0 +1,19 @@
+/* Chrome Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  background: white;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dadada;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+
+::-webkit-scrollbar-corner {
+  background: white;
+}
