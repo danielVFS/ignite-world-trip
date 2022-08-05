@@ -11,7 +11,7 @@ export function ContinentInfo() {
         mt={[8, 8, 16]}
         mb={16}
       >
-        <Text fontSize="lg" color="gray.700" px={8}>
+        <Text fontSize="lg" color="gray.700" px={[8, 8, 8, 8, 0]}>
           A Europa é, por convenção, um dos seis continentes do mundo.
           Compreendendo a península ocidental da Eurásia, a Europa geralmente
           divide-se da Ásia a leste pela divisória de águas dos montes Urais, o
