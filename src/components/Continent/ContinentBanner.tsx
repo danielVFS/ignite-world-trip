@@ -6,7 +6,7 @@ export function ContinentBanner() {
       w="full"
       h={[200, 300, 500]}
       bgImage="url('/Banner.png')"
-      bgPosition="center"
+      bgPosition="left"
       bgSize="cover"
     />
   );
