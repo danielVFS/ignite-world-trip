@@ -2,6 +2,7 @@ import { NextPage } from "next";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { ContinentBanner } from "../../components/Continent/ContinentBanner";
+import { ContinentCitiesList } from "../../components/Continent/ContinentCitiesList";
 import { ContinentInfo } from "../../components/Continent/ContinentInfo";
 import { Header } from "../../components/Header";
 
@@ -18,6 +19,7 @@ const Continent: NextPage = () => {
       <Header hasGoBackButton />
       <ContinentBanner />
       <ContinentInfo />
+      <ContinentCitiesList />
     </>
   );
 };
