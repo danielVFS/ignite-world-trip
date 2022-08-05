@@ -10,7 +10,7 @@ export function ContinentCitiesList() {
         w="full"
         h="335"
         flexDir="column"
-        px={[8, 8, 8, 8, 0]}
+        px={[8, 8, 8, 8, 8, 0]}
         gap={8}
         mb={24}
       >
