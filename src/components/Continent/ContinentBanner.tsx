@@ -1,12 +1,8 @@
 import { Flex } from "@chakra-ui/react";
-import { useContext } from "react";
-import {
-  ContinentContext,
-  ContinentContextType,
-} from "../../context/continentContext";
+import { useContinentContext } from "../../hooks/useContinentContext";
 
 export function ContinentBanner() {
-  const { continent } = useContext(ContinentContext) as ContinentContextType;
+  const { continent } = useContinentContext();
 
   return (
     <Flex
