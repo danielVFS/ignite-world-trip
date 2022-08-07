@@ -1,7 +1,10 @@
 import { Flex, Text } from "@chakra-ui/react";
+import { useContinentContext } from "../../hooks/useContinentContext";
 import { PageWrapper } from "../PageWrapper";
 
 export function ContinentInfo() {
+  const { continent } = useContinentContext();
+
   return (
     <PageWrapper>
       <Flex
@@ -12,15 +15,7 @@ export function ContinentInfo() {
         mb={16}
       >
         <Text fontSize="lg" color="gray.700" px={[8, 8, 8, 8, 8, 0]}>
-          A Europa é, por convenção, um dos seis continentes do mundo.
-          Compreendendo a península ocidental da Eurásia, a Europa geralmente
-          divide-se da Ásia a leste pela divisória de águas dos montes Urais, o
-          rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste. O
-          continente europeu possui características bastante heterogêneas quando
-          analisado todo o seu território. Para facilitar o estudo das áreas que
-          o constituem, algumas classificações dividem-no em quatro regiões.
-          Essas regiões foram estabelecidas segundo critérios de ordem espacial
-          e econômica.
+          {continent.description}
         </Text>
         <Flex
           flexDirection={["column", "column", "row"]}
@@ -30,7 +25,7 @@ export function ContinentInfo() {
         >
           <Flex flexDir="column" align="center">
             <Text fontSize="4xl" fontWeight="700" color="yellow.400">
-              50
+              {continent.continent_counters.countries}
             </Text>
             <Text fontWeight="600" color="gray.700" fontSize="2xl">
               países
@@ -38,7 +33,7 @@ export function ContinentInfo() {
           </Flex>
           <Flex flexDir="column" align="center">
             <Text fontSize="4xl" fontWeight="700" color="yellow.400">
-              60
+              {continent.continent_counters.languages}
             </Text>
             <Text fontWeight="600" color="gray.700" fontSize="2xl">
               línguas
@@ -46,7 +41,7 @@ export function ContinentInfo() {
           </Flex>
           <Flex flexDir="column" align="center">
             <Text fontSize="4xl" fontWeight="700" color="yellow.400">
-              27
+              {continent.continent_counters.cities}
             </Text>
             <Text fontWeight="600" color="gray.700" fontSize="2xl">
               cidades +100

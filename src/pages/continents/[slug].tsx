@@ -3,6 +3,8 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { ContinentBanner } from "../../components/Continent/ContinentBanner";
+import { ContinentCitiesList } from "../../components/Continent/ContinentCitiesList";
+import { ContinentInfo } from "../../components/Continent/ContinentInfo";
 import { Header } from "../../components/Header";
 import { useContinentContext } from "../../hooks/useContinentContext";
 import { useContinentInfo } from "../../hooks/useContinentInfo";
@@ -27,8 +29,8 @@ const Continent: NextPage = () => {
 
       <Header hasGoBackButton />
       <ContinentBanner />
-      {/* <ContinentInfo />
-      <ContinentCitiesList /> */}
+      <ContinentInfo />
+      <ContinentCitiesList />
     </>
   );
 };
