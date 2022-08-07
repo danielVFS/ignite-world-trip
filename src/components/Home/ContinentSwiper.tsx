@@ -23,7 +23,7 @@ export function ContinentSwiper() {
         >
           {continents.map((continent) => {
             return (
-              <SwiperSlide key={continent.description}>
+              <SwiperSlide key={continent.short_description}>
                 <Flex
                   w="full"
                   h="450"
@@ -42,7 +42,7 @@ export function ContinentSwiper() {
                   </NextLink>
 
                   <Text color="gray.300" fontSize="lg">
-                    {continent.description}
+                    {continent.short_description}
                   </Text>
                 </Flex>
               </SwiperSlide>
