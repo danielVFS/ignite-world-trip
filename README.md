@@ -32,10 +32,6 @@ O World Trip é catalógo de cidades para viagens. O projeito foi criado com int
 
 <br>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/54604875/183444182-8fedf1c6-6a1e-4a10-9a80-ebda61e4d5a1.gif" width="100%">
-</p>
-
 ## 💻 Instalação
 
 Para iniciar o **Frontend** do React utilize os comandos:
