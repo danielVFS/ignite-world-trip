@@ -30,8 +30,6 @@ O World Trip é catalógo de cidades para viagens. O projeito foi criado com int
 <a href="https://www.figma.com/file/iXbmIQ9c67hf43mHjmxZos/WorldTrip?node-id=2251%3A115
 " target="_blank" >Link para o projeto no figma.</a>
 
-<br>
-
 ## 💻 Instalação
 
 Para iniciar o **Frontend** do React utilize os comandos:
