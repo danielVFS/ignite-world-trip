@@ -6,6 +6,7 @@ import { ContinentSwiper } from "../components/Home/ContinentSwiper";
 import { PageDivider } from "../components/Home/PageDivider";
 import { SelectCountryText } from "../components/Home/SelectCountryText";
 import { TravelTypes } from "../components/Home/TravelTypes";
+import { continentsData } from "../core/data/ContinentsData";
 
 const Home: NextPage = () => {
   return (
@@ -19,7 +20,7 @@ const Home: NextPage = () => {
       <TravelTypes />
       <PageDivider />
       <SelectCountryText />
-      <ContinentSwiper />
+      <ContinentSwiper continents={continentsData} />
     </>
   );
 };

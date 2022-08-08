@@ -6,12 +6,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { continentsData } from "../../core/data/ContinentsData";
+import { Continent } from "../../core/models/Continent";
 import { PageWrapper } from "../PageWrapper";
 
-export function ContinentSwiper() {
-  const continents = continentsData;
+interface ContinentSwiperProps {
+  continents: Continent[];
+}
 
+export function ContinentSwiper({ continents }: ContinentSwiperProps) {
   return (
     <PageWrapper>
       <Flex w="full" mb={8} mt={12}>
