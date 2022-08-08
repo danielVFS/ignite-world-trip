@@ -13,6 +13,10 @@
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54604875/183473671-8bcba29f-3f9a-4f54-b24b-b7a48324d944.png" width="100%">
+</p>
+
 <br>
 
 ## :rocket: Tecnologias
