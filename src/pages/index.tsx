@@ -1,4 +1,4 @@
-import type { NextPage } from "next";
+import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import { Header } from "../components/Header";
 import { Banner } from "../components/Home/Banner";
@@ -7,8 +7,13 @@ import { PageDivider } from "../components/Home/PageDivider";
 import { SelectCountryText } from "../components/Home/SelectCountryText";
 import { TravelTypes } from "../components/Home/TravelTypes";
 import { continentsData } from "../core/data/ContinentsData";
+import { Continent } from "../core/models/Continent";
 
-const Home: NextPage = () => {
+interface HomeProps {
+  continents: Continent[];
+}
+
+const Home: NextPage<HomeProps> = ({ continents }) => {
   return (
     <>
       <Head>
@@ -20,9 +25,17 @@ const Home: NextPage = () => {
       <TravelTypes />
       <PageDivider />
       <SelectCountryText />
-      <ContinentSwiper continents={continentsData} />
+      <ContinentSwiper continents={continents} />
     </>
   );
+};
+
+export const getStaticProps: GetStaticProps<HomeProps> = async () => {
+  return {
+    props: {
+      continents: continentsData,
+    },
+  };
 };
 
 export default Home;
