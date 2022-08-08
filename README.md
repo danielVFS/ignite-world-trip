@@ -15,10 +15,6 @@
 
 <br>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/54604875/183443555-f77942aa-2c5a-4653-8e58-21598272dc05.gif" width="100%">
-</p>
-
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -36,12 +32,9 @@ O World Trip é catalógo de cidades para viagens. O projeito foi criado com int
 
 <br>
 
-<h4 align="center">
-  <br>
-  <img alt="Frontend" src="https://user-images.githubusercontent.com/54604875/77805427-9c51cf80-7060-11ea-88a1-ff3014ffe8ce.gif">
-</h4>
-
-<br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54604875/183444182-8fedf1c6-6a1e-4a10-9a80-ebda61e4d5a1.gif" width="100%">
+</p>
 
 ## 💻 Instalação
 
