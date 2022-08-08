@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    World Trip
+</h1>
 
-## Getting Started
+<h4 align="center">
+  🚀 Landing page de um catalógo de cidades para viagens feita com Next.js & Chakra-UI
+</h4>
 
-First, run the development server:
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54604875/183443555-f77942aa-2c5a-4653-8e58-21598272dc05.gif" width="100%">
+</p>
+
+## :rocket: Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Next.js](https://nextjs.org/)
+- [Chakra-UI](https://chakra-ui.com/)
+- [Swiper](https://swiperjs.com/)
+
+## 💻 Projeto
+
+O World Trip é catalógo de cidades para viagens. O projeito foi criado com intuito de estudos do Chakra-UI com Next.js
+
+<a href="https://www.figma.com/file/iXbmIQ9c67hf43mHjmxZos/WorldTrip?node-id=2251%3A115
+" target="_blank" >Link para o projeto no figma.</a>
+
+<br>
+
+<h4 align="center">
+  <br>
+  <img alt="Frontend" src="https://user-images.githubusercontent.com/54604875/77805427-9c51cf80-7060-11ea-88a1-ff3014ffe8ce.gif">
+</h4>
+
+<br>
+
+## 💻 Instalação
+
+Para iniciar o **Frontend** do React utilize os comandos:
 
 ```bash
-npm run dev
-# or
+cd ignite-world-trip
+yarn install
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 🤔 Como contribuir
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feito por Rocketseat :wave: & Alterado por [Daniel Vitor](https://github.com/danielVFS)
